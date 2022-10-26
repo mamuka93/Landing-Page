@@ -1,0 +1,185 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0F172A;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 112px;
+    padding: 20px 105px;
+
+}
+
+
+.menu {
+    display: flex;
+    gap: 60px;
+}
+
+nav ul {
+    list-style-type: none;
+
+}
+
+a,
+u {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    color: #F8FAFC;
+}
+
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 94px 144px;
+}
+
+main h1 {
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+
+main span {
+    color: #16B8F3;
+}
+
+.info-wrapper {
+    width: 100%;
+    background: rgba(30, 41, 59, 0.4);
+    border-radius: 20px;
+    margin-top: 41px;
+    padding: 34.12px 8px;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+
+}
+
+.content-wrapper h1 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 30px;
+    color: #F8FAFC;
+}
+
+.content-wrapper p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    color: #CBD5E1;
+}
+
+.text-wrapper {
+    margin-left: 44px;
+}
+
+.text-wrapper p:nth-child(2) {
+    margin-top: 25px;
+    margin-bottom: 14px;
+}
+
+.title {
+    margin-bottom: 42px;
+}
+
+.img-wrapper {
+    width: 250px;
+    height: 232px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mt-90 {
+    margin-top: 94px;
+}
+
+.mb-82 {
+    margin-bottom: 82px;
+}
+
+.cards-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.cards-wrapper h1 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #F8FAFC;
+}
+
+.cards-wrapper p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #9CA3AF;
+}
+
+.cards {
+    background-color: #1E293B;
+    border-radius: 20px;
+
+
+}
+
+#card {
+    width: 100%;
+}
+
+.cards p {
+    padding: 10px 10px;
+}
+
+.footer {
+    border-top: 1px solid #CBD5E1;
+    height: 136px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40.5px 108px;
+}
+
+#copyright {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #CBD5E1;
+}
+
+
+.social {
+    display: flex;
+    color: #CBD5E1;
+    gap: 24px;
+    
+}
+
